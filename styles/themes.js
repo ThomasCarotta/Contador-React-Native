@@ -70,7 +70,7 @@ export const getStyles = (isDarkTheme) => {
       marginBottom: 20
     },
     button: {
-      backgroundColor: theme.buttonPrimary,  // Ambos botones usarán el mismo color
+      backgroundColor: theme.buttonPrimary,
       paddingVertical: 15,
       paddingHorizontal: 25,
       borderRadius: 15,
@@ -81,7 +81,6 @@ export const getStyles = (isDarkTheme) => {
       shadowRadius: 10,
       elevation: 5,
     },
-    // Puedes eliminar la propiedad secondaryButton ya que no se usará
     buttonDisabled: {
       backgroundColor: theme.disabledButton,
     },
@@ -130,7 +129,7 @@ export const getStyles = (isDarkTheme) => {
       backgroundColor: theme.disabledButton,
       borderRadius: 5,
       marginTop: 15,
-      marginBottom: 15,  // Espacio agregado debajo de la barra
+      marginBottom: 15,
       overflow: 'hidden'
     },
     progressFill: {
